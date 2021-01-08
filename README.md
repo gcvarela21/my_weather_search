@@ -105,7 +105,7 @@ ______________________________________________________________________________
 * [Link to Portfolio Site](https://www.glo.digital)
 * [Link to Github](https://github.com/gcvarela21)
 * [Link to LinkedIn](https://www.linkedin.com/in/glovarela)
-​
+
 ​
 ​______________________________________________________________________________
 ​
