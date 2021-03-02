@@ -114,3 +114,7 @@ ______________________________________________________________________________
 ​
 This project is licensed under the MIT License
  ![License](https://img.shields.io/static/v1?label=License&message=MIT&color=blueviolet&style=plastic)
+
+#### **Resources**
+
+ [Create a Search Bar](https://www.w3schools.com/howto/howto_css_searchbar.asp)
