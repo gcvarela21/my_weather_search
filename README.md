@@ -1,6 +1,4 @@
-# 06 Server-Side APIs: Weather Dashboard
-
-Developers are often tasked with retrieving data from another application's API and using it in the context of their own. Third-party APIs allow developers to access their data and functionality by making requests with specific parameters to a URL. Your challenge is to build a weather dashboard that will run in the browser and feature dynamically updated HTML and CSS. 5 day weather forecast using a weather API.
+# Hows The Weather: A Weather Dashboard  ![License](https://img.shields.io/static/v1?label=License&message=MIT&color=blueviolet&style=plastic)
 
 This project is a weather dashboard that runs in a web browser that retrieves data from the third party API: Open Weather. Accessing the functionality of the API is done by making requests with specific parameters using a URL and API Key and storing searches within the `localStorage`.
 
@@ -13,9 +11,14 @@ Here is a visual:
 * [If your reading this you are probably HERE](https://github.com/gcvarela21/waether_search/)
 ​
 
-## User Story
+## **Summary**
 
-```
+Developers are often tasked with retrieving data from another application's API and using it in the context of their own. Third-party APIs allow developers to access their data and functionality by making requests with specific parameters to a URL. How's The Weather is a weather dashboard that will run in the browser and feature dynamically updated HTML and CSS. It features a search bar, locally saved searches, today's weather stats, and a 5 day weather forecast using a weather API.  
+​__________________________________________________________________________________
+
+### User Story
+
+``` html
 AS A traveler
 I WANT to see the weather outlook for multiple cities
 SO THAT I can plan a trip accordingly
@@ -23,7 +26,7 @@ SO THAT I can plan a trip accordingly
 
 ### How it Should Work
 
-```
+``` html
 GIVEN a weather dashboard with form inputs
 WHEN you search for a city
 THEN you am presented with current and future conditions for that city and that city is added to the search history
@@ -39,20 +42,16 @@ THEN you am again presented with current and future conditions for that city
 
 ### **Built With**
 
-* [HTML](https"//w3schools.com)
-* [CSS](https"//w3schools.com)
+* [HTML 5](https://www.w3schools.com/html/)
+* [CSS](https://www.w3schools.com/css/css_howto.asp)
+* [JavaScript](https://www.w3schools.com/js/default.asp)
+* [BootStrap](https://getbootstrap.com/docs/5.0/getting-started/introduction/)
+* [Git](https://git-scm.com/downloads)
+* [GitHub](https://github.com/)
 * [OpenWeather API](https://openweathermap.org/api)
-* [BootStrap](https://getbootstrap.com/)
-* [gitBash](https://git-scm.com/downloads)
-* [gitHub](https"//gitHub.com)
-* [Atom](https://atom.io/)
 
 ______________________________________________________________________________
 
-### **Summary**
-
-things  
-​__________________________________________________________________________________
 ​
 
 ### **Code Snippet**
@@ -60,7 +59,7 @@ things
 ​
 Things.
 
-```
+```html
 
 function ();
 ```
@@ -73,7 +72,7 @@ ______________________________________________________________________________
 poop
 ​
 
-```
+```javascript
 
 poop();
 
@@ -85,7 +84,7 @@ ______________________________________________________________________________
 
 referencing
 
-```
+```javascript
 ​function();
 
 ```
@@ -114,9 +113,4 @@ ______________________________________________________________________________
 
 ​
 This project is licensed under the MIT License
-
-#### **Some Reference Materials I collected on this Journey**
-
-##### **References**
-
-* [Some References](https://www.w3schools.com/)
+ ![License](https://img.shields.io/static/v1?label=License&message=MIT&color=blueviolet&style=plastic)
