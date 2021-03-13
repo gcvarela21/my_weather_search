@@ -9,6 +9,7 @@
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+        <script src="https://kit.fontawesome.com/a076d05399.js"></script>
     <link href="style.css" rel="stylesheet">
 
     <title>Hows the Weather</title>
@@ -27,24 +28,106 @@
             <div class="col-sm-0 col-md-0 col-1"></div>
             <div class="col-3">
                 <div class="row">
-                    <h3 class="col-12 search">
-                        Search For a City:
-                    </h3>
-                    <input class="col-12" type="text" placeholder="City Name">
-                    <div class="col-12 savedSearch">This is where recent searches will be apended</div>
+                    <form>
+                        <div class="col-12 ">
+                            <h3>Search For a City:</h3>
+                        </div>
+                        <div class="col-12 ">
+                            <div class="row">
+                                <input class="col-10 form-control" id="city-search"
+                                    placeholder="City Name"></input>
+                                <div class="col-2">
+                                    <button type="submit" class="btn btn-primary mb-3" id="submit-button"><i
+                                            class="fas fa-search"></i></button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 city-history">
+                            <div class="row">
+                                <div class="col-12 city-storage"></div>
+                            </div>
+                        </div>
+                    </form>
                 </div>
             </div>
-            <div class="col-8 pad">
-                <div class="row">
-                    <div id="searchResults" class="col-12">Apend Search results for today</div>
+            <div class="col-8 pad main-weather">
+                <div id="searchResults" class="row">
+                    <h2 class="col-12">Today's Weather</h2>
                     <div class="col-12">
-                        <div id="fiveDay" class="row">Apend search results 5 days cast into divs with the class of col-2
-                            for each day</div>
+                        <img scr="#" id="weather-today" />
+                    </div>
+                    <h3 id="city-name" class="col-12"></h3>
+                    <p id="date" class="col-12"></p>
+                    <p id="temp" class="col-12"></p>
+                    <p id="humidity" class="col-12"></p>
+                    <p id="wind-speed" class="col-12"></p>
+                    <div class="col-12">
+                        <button type="button" class="btn" id="UVIndex"></button>
+                    </div>
+                    <div class="col-12">
+                        <div id="fiveDay" class="row">
+                            <h4 class="col-12">The Next Five Days</h4>
+                            <div class="col-2">
+                                <div class="row">
+                                    <p class="col-12" id="forecast-date1"></p>
+                                    <div class="col-12">
+                                        <img src="#" id="forecast-img1" alt="">
+                                    </div>
+                                    <p class="col-12" id="forecast-temp1"></p>
+                                    <p class="col-12" id="forecast-humidity1"></p>
+                                </div>
+                            </div>
+
+                            <div class="col-2">
+                                <div class="row">
+                                    <p class="col-12" id="forecast-date2"></p>
+                                    <div class="col-12">
+                                        <img src="#" id="forecast-img2" alt="">
+                                    </div>
+                                    <p class="col-12" id="forecast-temp2"></p>
+                                    <p class="col-12" id="forecast-humidity2"></p>
+                                </div>
+                            </div>
+
+                            <div class="col-2">
+                                <div class="row">
+                                    <p class="col-12" id="forecast-date3"></p>
+                                    <div class="col-12">
+                                        <img src="#" id="forecast-img3" alt="">
+                                    </div>
+                                    <p class="col-12" id="forecast-temp3"></p>
+                                    <p class="col-12" id="forecast-humidity3"></p>
+                                </div>
+                            </div>
+
+                            <div class="col-2">
+                                <div class="row">
+                                    <p class="col-12" id="forecast-date4"></p>
+                                    <div class="col-12">
+                                        <img src="#" id="forecast-img4" alt="">
+                                    </div>
+                                    <p class="col-12" id="forecast-temp4"></p>
+                                    <p class="col-12" id="forecast-humidity4"></p>
+                                </div>
+                            </div>
+
+                            <div class="col-2">
+                                <div class="row">
+                                    <p class="col-12" id="forecast-date5"></p>
+                                    <div class="col-12">
+                                        <img src="#" id="forecast-img5" alt="">
+                                    </div>
+                                    <p class="col-12" id="forecast-temp5"></p>
+                                    <p class="col-12" id="forecast-humidity5"></p>
+                                </div>
+                            </div>
+
+                            <div class="col-2"></div>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
-
     </div>
 
 
